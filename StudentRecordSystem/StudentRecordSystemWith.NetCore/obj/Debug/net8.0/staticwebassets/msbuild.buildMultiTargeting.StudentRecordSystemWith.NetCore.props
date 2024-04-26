@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\StudentRecordSystemWith.NetCore.props" />
+</Project>

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|c:\\users\\oaksa\\source\\repos\\studentrecordsystem\\studentrecordsystemwith.netcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|solutionrelative:studentrecordsystemwith.netcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|c:\\users\\oaksa\\source\\repos\\studentrecordsystem\\studentrecordsystemwith.netcore\\views\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|solutionrelative:studentrecordsystemwith.netcore\\views\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|c:\\users\\oaksa\\source\\repos\\studentrecordsystem\\studentrecordsystemwith.netcore\\views\\studentsystem\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|solutionrelative:studentrecordsystemwith.netcore\\views\\studentsystem\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Notification.cshtml",
+              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Views\\Shared\\_Notification.cshtml",
+              "RelativeDocumentMoniker": "StudentRecordSystemWith.NetCore\\Views\\Shared\\_Notification.cshtml",
+              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Views\\Shared\\_Notification.cshtml",
+              "RelativeToolTip": "StudentRecordSystemWith.NetCore\\Views\\Shared\\_Notification.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T19:13:45.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Views\\StudentSystem\\List.cshtml",
+              "RelativeDocumentMoniker": "StudentRecordSystemWith.NetCore\\Views\\StudentSystem\\List.cshtml",
+              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Views\\StudentSystem\\List.cshtml",
+              "RelativeToolTip": "StudentRecordSystemWith.NetCore\\Views\\StudentSystem\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T19:11:28.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "StudentRecordSystemWith.NetCore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "StudentRecordSystemWith.NetCore\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T19:10:16.837Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+﻿@model IEnumerable<StudentModel>
+ <partial name="_Notification" />
+<div class="container">
+    <h2>Studnet List</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Surname</th>
+                <th scope="col">School Number</th>
+                <th scope="col"></th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var student in Model)
+            {
+                
+            <tr>
+                <th scope="row">@student.Id</th>
+                    <td>@student.Name</td>
+                    <td>@student.Surname</td>
+                    <td >@student.SchoolNumber</td>
+                    <td>
+                        <a type="button" class="btn btn-warning rounded" asp-action="Update" asp-route-id="@student.Id">
+                            <i class="bi bi-pencil-fill"></i>
+                        Edit
+                    </a>
+                        <form type="button" class="d-inline-flex" method="post" asp-action="Delete" asp-route-id="@student.Id">
+                            <button class="btn btn-danger rounded"> <i class="bi bi-trash"></i> Delete</button>
+                            </form>
+                    </td>
+            </tr>
+            }
+            
+        </tbody>
+    </table>
+</div>
