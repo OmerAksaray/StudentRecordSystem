@@ -1,0 +1,12 @@
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Models\bin\Debug\net8.0\SRS.Models.deps.json
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Models\bin\Debug\net8.0\SRS.Models.dll
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Models\bin\Debug\net8.0\SRS.Models.pdb
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Models\obj\Debug\net8.0\SRS.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Models\obj\Debug\net8.0\SRS.Models.AssemblyInfoInputs.cache
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Models\obj\Debug\net8.0\SRS.Models.AssemblyInfo.cs
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Models\obj\Debug\net8.0\SRS.Models.csproj.CoreCompileInputs.cache
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Models\obj\Debug\net8.0\SRS.Models.dll
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Models\obj\Debug\net8.0\refint\SRS.Models.dll
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Models\obj\Debug\net8.0\SRS.Models.pdb
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Models\obj\Debug\net8.0\ref\SRS.Models.dll
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Models\obj\Debug\net8.0\SRS.Models.csproj.AssemblyReference.cache

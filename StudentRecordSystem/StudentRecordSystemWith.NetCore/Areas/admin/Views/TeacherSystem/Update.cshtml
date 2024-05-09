@@ -1,0 +1,23 @@
+﻿@model TeacherModel
+<div class="container">
+    <h2>Form</h2>
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <form method="post">
+        <div class="form-group my-3">
+            <label asp-for="Name">Name:</label>
+            <input asp-for="Name" class="form-control border border-primary" placeholder="Enter name">
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group my-3">
+            <label asp-for="Surname">Surname:</label>
+            <input asp-for="Surname" class="form-control border border-primary" placeholder="Enter surname">
+            <span asp-validation-for="Surname" class="text-danger"></span>
+        </div>
+        @* <div class="form-group my-3">
+            <label asp-for="Section">Section:</label>
+            <input asp-for="Section" class="form-control border border-primary" placeholder="Enter Section">
+            <span asp-validation-for="Section" class="text-danger"></span>
+        </div> *@
+        <button type="submit" class="btn btn-primary my-3">Submit</button>
+    </form>
+</div>

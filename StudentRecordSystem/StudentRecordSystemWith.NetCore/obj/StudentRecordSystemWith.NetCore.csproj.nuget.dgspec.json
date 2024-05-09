@@ -4,14 +4,98 @@
     "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj": {
+    "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.DataAccess\\SRS.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj",
-        "projectName": "StudentRecordSystemWith.NetCore",
-        "projectPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj",
+        "projectUniqueName": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.DataAccess\\SRS.DataAccess.csproj",
+        "projectName": "SRS.DataAccess",
+        "projectPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.DataAccess\\SRS.DataAccess.csproj",
         "packagesPath": "C:\\Users\\oaksa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\obj\\",
+        "outputPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oaksa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj": {
+                "projectPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj"
+              },
+              "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Utility\\SRS.Utility.csproj": {
+                "projectPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Utility\\SRS.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj",
+        "projectName": "SRS.Models",
+        "projectPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj",
+        "packagesPath": "C:\\Users\\oaksa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oaksa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,23 +130,168 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Utility\\SRS.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Utility\\SRS.Utility.csproj",
+        "projectName": "SRS.Utility",
+        "projectPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Utility\\SRS.Utility.csproj",
+        "packagesPath": "C:\\Users\\oaksa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oaksa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj",
+        "projectName": "StudentRecordSystemWith.NetCore",
+        "projectPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj",
+        "packagesPath": "C:\\Users\\oaksa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oaksa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.DataAccess\\SRS.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.DataAccess\\SRS.DataAccess.csproj"
+              },
+              "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj": {
+                "projectPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj"
+              },
+              "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Utility\\SRS.Utility.csproj": {
+                "projectPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Utility\\SRS.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.18, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.18, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.18, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [

@@ -1,0 +1,11 @@
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Utility\bin\Debug\net8.0\SRS.Utility.deps.json
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Utility\bin\Debug\net8.0\SRS.Utility.dll
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Utility\bin\Debug\net8.0\SRS.Utility.pdb
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Utility\obj\Debug\net8.0\SRS.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Utility\obj\Debug\net8.0\SRS.Utility.AssemblyInfoInputs.cache
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Utility\obj\Debug\net8.0\SRS.Utility.AssemblyInfo.cs
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Utility\obj\Debug\net8.0\SRS.Utility.csproj.CoreCompileInputs.cache
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Utility\obj\Debug\net8.0\SRS.Utility.dll
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Utility\obj\Debug\net8.0\refint\SRS.Utility.dll
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Utility\obj\Debug\net8.0\SRS.Utility.pdb
+C:\Users\oaksa\source\repos\StudentRecordSystem\SRS.Utility\obj\Debug\net8.0\ref\SRS.Utility.dll

@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StudentRecordSystemWith.NetCore
 build_property.RootNamespace = StudentRecordSystemWith.NetCore
@@ -18,12 +26,56 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\oaksa\source\repos\StudentRecordSystem\StudentRecordSystemWith.NetCore
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Areas/admin/Views/StudentSystem/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU3R1ZGVudFN5c3RlbVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Areas/admin/Views/StudentSystem/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU3R1ZGVudFN5c3RlbVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Areas/admin/Views/StudentSystem/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU3R1ZGVudFN5c3RlbVxVcHNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Areas/admin/Views/TeacherSystem/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcVGVhY2hlclN5c3RlbVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Areas/admin/Views/TeacherSystem/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcVGVhY2hlclN5c3RlbVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Areas/admin/Views/TeacherSystem/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcVGVhY2hlclN5c3RlbVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Areas/admin/Views/TeacherSystem/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcVGVhY2hlclN5c3RlbVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Areas/admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Areas/admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Areas/Student/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Areas/Student/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xIb21lXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Areas/Student/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Areas/Student/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Views/Shared/Error.cshtml]
@@ -36,22 +88,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Views/StudentSystem/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFN5c3RlbVxDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Views/StudentSystem/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFN5c3RlbVxEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Views/StudentSystem/List.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFN5c3RlbVxMaXN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Views/StudentSystem/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFN5c3RlbVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/oaksa/source/repos/StudentRecordSystem/StudentRecordSystemWith.NetCore/Views/_ViewImports.cshtml]

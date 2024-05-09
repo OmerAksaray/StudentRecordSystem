@@ -1,0 +1,54 @@
+﻿@model StudentVM
+<div class="container">
+
+    <h2> Student @(Model._Student.StudentId != 0 ?"Update":"Create") Form</h2>
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <form method="post" enctype="multipart/form-data">
+        <input asp-for="_Student.StudentId" hidden />
+        <div class="row">
+            <div class="col-10">
+                <div class="form-group my-3">
+
+                    <input asp-for="_Student.Name" class="form-control border border-primary" placeholder="Enter name">
+                    <span asp-validation-for="_Student.Name" class="text-danger"></span>
+                </div>
+                <div class="form-group my-3">
+
+                    <input asp-for="_Student.Surname" class="form-control border border-primary" placeholder="Enter surname">
+                    <span asp-validation-for="_Student.Surname" class="text-danger"></span>
+                </div>
+                <div class="form-group my-3">
+
+                    <input asp-for="_Student.SchoolNumber" class="form-control border border-primary" placeholder="Enter school number">
+                    <span asp-validation-for="_Student.SchoolNumber" class="text-danger"></span>
+                </div>
+
+                <div class="form-group my-3">
+                    <select asp-for="@Model._Student.TeacherId" asp-items="@Model.TeacherList" class="form-select border border-black">
+                        <option disabled selected>--Select Teacher--</option>
+                    </select>
+                    <span asp-validation-for="_Student.TeacherId" class="text-danger"></span>
+                </div>
+                <div class="form-group my-3">
+                    <input asp-for="_Student.ImageUrl" class="form-control border border-black" type="file" name="file">
+                </div>
+
+                <button type="submit" class="btn btn-primary my-3">Submit</button>
+            </div>
+
+            <div class="col-2">
+                
+                <img src="@Model._Student.ImageUrl" style="border-radius:5px; border: 1px solid #bbb9b9" width="100%" height="200px"/>
+                
+
+            </div>
+        </div>
+        
+    </form>
+</div>
+
+            @section Scripts{
+                @{
+                    <partial name="_ValidationScriptsPartial" />
+                }
+            }
