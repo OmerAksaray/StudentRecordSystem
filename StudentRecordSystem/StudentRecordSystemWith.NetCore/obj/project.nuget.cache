@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fhr3ae913l8=",
+  "dgSpecHash": "bFCGy4LkPSo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj",
+  "projectFilePath": "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oaksa\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\oaksa\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|c:\\users\\oaksa\\source\\repos\\studentrecordsystem\\studentrecordsystemwith.netcore\\areas\\admin\\controllers\\studentsystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|solutionrelative:studentrecordsystemwith.netcore\\areas\\admin\\controllers\\studentsystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|c:\\users\\oaksa\\source\\repos\\studentrecordsystem\\studentrecordsystemwith.netcore\\areas\\admin\\views\\studentsystem\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|solutionrelative:studentrecordsystemwith.netcore\\areas\\admin\\views\\studentsystem\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|c:\\users\\oaksa\\source\\repos\\studentrecordsystem\\studentrecordsystemwith.netcore\\areas\\admin\\views\\studentsystem\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|solutionrelative:studentrecordsystemwith.netcore\\areas\\admin\\views\\studentsystem\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|c:\\users\\oaksa\\source\\repos\\studentrecordsystem\\studentrecordsystemwith.netcore\\areas\\admin\\controllers\\studentsystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|solutionrelative:studentrecordsystemwith.netcore\\areas\\admin\\controllers\\studentsystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StudentSystemController.cs",
-              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Areas\\admin\\Controllers\\StudentSystemController.cs",
-              "RelativeDocumentMoniker": "StudentRecordSystemWith.NetCore\\Areas\\admin\\Controllers\\StudentSystemController.cs",
-              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Areas\\admin\\Controllers\\StudentSystemController.cs",
-              "RelativeToolTip": "StudentRecordSystemWith.NetCore\\Areas\\admin\\Controllers\\StudentSystemController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAAABUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T15:05:06.07Z",
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Areas\\admin\\Views\\StudentSystem\\List.cshtml",
+              "RelativeDocumentMoniker": "StudentRecordSystemWith.NetCore\\Areas\\admin\\Views\\StudentSystem\\List.cshtml",
+              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Areas\\admin\\Views\\StudentSystem\\List.cshtml",
+              "RelativeToolTip": "StudentRecordSystemWith.NetCore\\Areas\\admin\\Views\\StudentSystem\\List.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T13:50:25.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Upsert.cshtml",
-              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Areas\\admin\\Views\\StudentSystem\\Upsert.cshtml",
-              "RelativeDocumentMoniker": "StudentRecordSystemWith.NetCore\\Areas\\admin\\Views\\StudentSystem\\Upsert.cshtml",
-              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Areas\\admin\\Views\\StudentSystem\\Upsert.cshtml",
-              "RelativeToolTip": "StudentRecordSystemWith.NetCore\\Areas\\admin\\Views\\StudentSystem\\Upsert.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-09T14:56:36.532Z"
+              "Title": "StudentSystemController.cs",
+              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Areas\\admin\\Controllers\\StudentSystemController.cs",
+              "RelativeDocumentMoniker": "StudentRecordSystemWith.NetCore\\Areas\\admin\\Controllers\\StudentSystemController.cs",
+              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Areas\\admin\\Controllers\\StudentSystemController.cs",
+              "RelativeToolTip": "StudentRecordSystemWith.NetCore\\Areas\\admin\\Controllers\\StudentSystemController.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAIMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T13:44:03.342Z"
             }
           ]
         }

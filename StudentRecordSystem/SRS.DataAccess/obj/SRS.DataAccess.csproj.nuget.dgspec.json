@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.DataAccess\\SRS.DataAccess.csproj": {}
+    "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.DataAccess\\SRS.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.DataAccess\\SRS.DataAccess.csproj": {
+    "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.DataAccess\\SRS.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.DataAccess\\SRS.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.DataAccess\\SRS.DataAccess.csproj",
         "projectName": "SRS.DataAccess",
-        "projectPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.DataAccess\\SRS.DataAccess.csproj",
+        "projectPath": "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.DataAccess\\SRS.DataAccess.csproj",
         "packagesPath": "C:\\Users\\oaksa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oaksa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,11 +29,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj": {
-                "projectPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj"
+              "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj": {
+                "projectPath": "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj"
               },
-              "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Utility\\SRS.Utility.csproj": {
-                "projectPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Utility\\SRS.Utility.csproj"
+              "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.Utility\\SRS.Utility.csproj": {
+                "projectPath": "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.Utility\\SRS.Utility.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj": {
+    "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj",
+        "projectUniqueName": "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj",
         "projectName": "SRS.Models",
-        "projectPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj",
+        "projectPath": "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj",
         "packagesPath": "C:\\Users\\oaksa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Models\\obj\\",
+        "outputPath": "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oaksa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -158,14 +158,14 @@
         }
       }
     },
-    "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Utility\\SRS.Utility.csproj": {
+    "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.Utility\\SRS.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Utility\\SRS.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.Utility\\SRS.Utility.csproj",
         "projectName": "SRS.Utility",
-        "projectPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Utility\\SRS.Utility.csproj",
+        "projectPath": "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.Utility\\SRS.Utility.csproj",
         "packagesPath": "C:\\Users\\oaksa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Utility\\obj\\",
+        "outputPath": "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oaksa\\AppData\\Roaming\\NuGet\\NuGet.Config",

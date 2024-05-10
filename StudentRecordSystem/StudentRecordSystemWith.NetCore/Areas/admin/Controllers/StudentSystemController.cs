@@ -126,19 +126,21 @@ namespace StudentRecordSystemWith.NetCore.Areas.Admin.Controllers
             return View(studentVM);
         }
         public IActionResult List()
-        {   
-            return View(_db.Student.GetAll());
+        {
+            List<StudentModel> obj = _db.Student.GetAll(includeProperties: "Teacher").ToList();
+            return View(obj);
         }
 
-        //public IActionResult Update(int? id)
-        //{
+//-----------------------------------------------------------------------------------------
+//public IActionResult Update(int? id)
+//{
 
-        //    return View(_db.Student.Get(u => u.StudentId == id));
-        //}
+//    return View(_db.Student.Get(u => u.StudentId == id));
+//}
 
-        //[HttpPost]
-        //public IActionResult Update(StudentModel student)
-        //{
+//[HttpPost]
+//public IActionResult Update(StudentModel student)
+//{
 //            if (null != _db.Student.Get(u => u.SchoolNumber == student.SchoolNumber))
 //            {
 //                ModelState.AddModelError("SchoolNumber", "You can't use same school number more than 1");

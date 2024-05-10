@@ -6636,11 +6636,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj",
+      "projectUniqueName": "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj",
       "projectName": "SRS.Models",
-      "projectPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj",
+      "projectPath": "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.Models\\SRS.Models.csproj",
       "packagesPath": "C:\\Users\\oaksa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Models\\obj\\",
+      "outputPath": "C:\\Users\\oaksa\\OneDrive\\Documents\\GitHub\\StudentRecordSystem\\StudentRecordSystem\\SRS.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\oaksa\\AppData\\Roaming\\NuGet\\NuGet.Config",

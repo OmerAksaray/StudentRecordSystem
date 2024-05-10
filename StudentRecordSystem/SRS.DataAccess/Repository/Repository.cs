@@ -22,6 +22,9 @@ namespace SRS.DataAccess.Repository
             //burda _db.StudentModel==dbSet yapmış olduk
             this.dbSet = _db.Set<T>();
 
+            //burada navigation propertyi eklemiş olduk
+            _db.StudentModels.Include(u => u.Teacher);
+
         }
         public void Add(T entity)
         {
@@ -31,18 +34,35 @@ namespace SRS.DataAccess.Repository
             
         }
 
-        public T Get(Expression<Func<T, bool>> filter)
+        public T Get(Expression<Func<T, bool>> filter, string? includeProperties = null)
         {
             IQueryable<T> query = dbSet;
              query=query.Where(filter);
-              
+            if (!string.IsNullOrEmpty(includeProperties))
+            {
+                foreach (var includeProp in includeProperties.
+                    Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includeProp);
+
+                }
+            }
             return query.FirstOrDefault();
         }
 
-        public IEnumerable<T> GetAll()
+        public IEnumerable<T> GetAll(string? includeProperties=null)
         {
             //burada IEnumerable (hafızada saklanandan) kullanmama sebebi IQueryablede veritabaından çekiyorsun ve queryable sorguyu alarak veri dönderebiliyor
             IQueryable<T> query = dbSet;
+            if (!string.IsNullOrEmpty(includeProperties))
+            {
+                foreach (var includeProp in includeProperties.
+                    Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query=query.Include(includeProp);
+                        
+                }
+            }
             return query.ToList();
         }
 

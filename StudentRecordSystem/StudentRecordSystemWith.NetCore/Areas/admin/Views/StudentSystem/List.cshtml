@@ -2,15 +2,16 @@
  <partial name="_Notification" />
 <div class="container">
     <h2>Studnet List</h2>
-    <table class="table">
+    <table class="table table-dark">
         <thead>
             <tr>
                 <th scope="col">#</th>
+                <th scope="col">Student Photo</th>
                 <th scope="col">Name</th>
                 <th scope="col">Surname</th>
                 <th scope="col">School Number</th>
-                <th scope="col"></th>
-
+                <th scope="col">Teacher of student</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -19,9 +20,15 @@
                 
             <tr>
                     <th scope="row">@student.StudentId</th>
+                    <td>
+                        <img src="@student.ImageUrl" class="img-thumbnail" alt="img" width="100px" height="50px" />
+                    </td>
                     <td>@student.Name</td>
                     <td>@student.Surname</td>
                     <td >@student.SchoolNumber</td>
+                    
+                    <td>@student.Teacher.Name   @student.Teacher.Surname</td>
+                    
                     <td>
                         <a type="button" class="btn btn-warning rounded" asp-action="Upsert" asp-route-id="@student.StudentId">
                             <i class="bi bi-pencil-fill"></i>

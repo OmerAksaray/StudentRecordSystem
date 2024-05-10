@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\wwwroot\\images\\students\\2c5e731f-1634-465d-ada8-47cba91f4800.jpg",
+      "PackagePath": "staticwebassets\\images\\students\\2c5e731f-1634-465d-ada8-47cba91f4800.jpg"
+    },
+    {
+      "Id": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\wwwroot\\images\\students\\31db8fca-fb8e-42e3-b8f5-0242f5756b80.jpg",
+      "PackagePath": "staticwebassets\\images\\students\\31db8fca-fb8e-42e3-b8f5-0242f5756b80.jpg"
+    },
+    {
       "Id": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\wwwroot\\images\\students\\6674de3a-e726-48e0-aeef-a559477f7c93.jpg",
       "PackagePath": "staticwebassets\\images\\students\\6674de3a-e726-48e0-aeef-a559477f7c93.jpg"
     },
@@ -29,12 +37,20 @@
       "PackagePath": "staticwebassets\\images\\students\\9a266b56-d68e-4ac1-8739-e7f71bc9bea3.png"
     },
     {
+      "Id": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\wwwroot\\images\\students\\bda2df80-c39c-4c74-bea2-8fab6a21dd30.jpg",
+      "PackagePath": "staticwebassets\\images\\students\\bda2df80-c39c-4c74-bea2-8fab6a21dd30.jpg"
+    },
+    {
       "Id": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\wwwroot\\images\\students\\e32d3d43-13dc-4405-a611-9e9c1db3d065.png",
       "PackagePath": "staticwebassets\\images\\students\\e32d3d43-13dc-4405-a611-9e9c1db3d065.png"
     },
     {
       "Id": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\wwwroot\\images\\students\\f04977d6-a111-4644-94f4-a9bee33d1c99.jpg",
       "PackagePath": "staticwebassets\\images\\students\\f04977d6-a111-4644-94f4-a9bee33d1c99.jpg"
+    },
+    {
+      "Id": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\wwwroot\\images\\students\\ff22ebf9-ec8e-4ae2-bf24-ce71f0c78186.jpg",
+      "PackagePath": "staticwebassets\\images\\students\\ff22ebf9-ec8e-4ae2-bf24-ce71f0c78186.jpg"
     },
     {
       "Id": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\wwwroot\\js\\site.js",
