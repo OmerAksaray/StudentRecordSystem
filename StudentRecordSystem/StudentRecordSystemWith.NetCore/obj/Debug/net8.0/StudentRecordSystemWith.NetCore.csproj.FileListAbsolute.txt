@@ -260,3 +260,4 @@ C:\Users\oaksa\source\repos\StudentRecordSystem\StudentRecordSystemWith.NetCore\
 C:\Users\oaksa\source\repos\StudentRecordSystem\StudentRecordSystemWith.NetCore\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\oaksa\source\repos\StudentRecordSystem\StudentRecordSystemWith.NetCore\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\oaksa\source\repos\StudentRecordSystem\StudentRecordSystemWith.NetCore\obj\Debug\net8.0\StudentRecordSystemWith.NetCore.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\oaksa\source\repos\StudentRecordSystem\StudentRecordSystemWith.NetCore\bin\Debug\net8.0\FluentAssertions.dll

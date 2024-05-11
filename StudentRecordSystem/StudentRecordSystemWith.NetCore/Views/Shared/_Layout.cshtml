@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="~/StudentRecordSystemWith.NetCore.styles.css" asp-append-version="true" />
     <link href="~/lib/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
     <link href="~/lib/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css" />   
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.7/css/dataTables.dataTables.css" />
 </head>
 <body>
     <header>
@@ -26,26 +27,28 @@
                         <li class="nav-item">
                             <a class="nav-link text-white" asp-area="student" asp-controller="home" asp-action="index">Home</a>
                         </li>
-                       
+
                         <li class="nav-item">
                             <a class="nav-link text-white" asp-area="admin" asp-controller="studentSystem" asp-action="upsert">Create Student</a>
                         </li>
 
-                       
-                        
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Opeartion
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item">
-                                    <a class="dropdown-item" asp-area="admin" asp-controller="studentSystem" asp-action="list">Student List</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="dropdown-item" asp-area="admin" asp-controller="teacherSystem" asp-action="list">Teacher List</a>
-                                </li>
-                            </ul>
-                        </div>
+
+
+                       <li>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Opeartion
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" asp-area="admin" asp-controller="studentSystem" asp-action="list">Student List</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" asp-area="admin" asp-controller="teacherSystem" asp-action="list">Teacher List</a>
+                                    </li>
+                                </ul>
+                            </div>
+                       </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" asp-area="admin" asp-controller="teacherSystem" asp-action="create">Create Teacher</a>
                         </li>
@@ -67,7 +70,8 @@
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>

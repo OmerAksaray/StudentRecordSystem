@@ -1,4 +1,5 @@
-﻿using SRS.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using SRS.Data;
 using SRS.DataAccess.Repository.IRepository;
 using SRS.Models;
 using System;
@@ -17,11 +18,12 @@ namespace SRS.DataAccess.Repository
         {
             _db = db;
         }
-       
+
 
         public void Update(StudentModel student)
         {
             _db.StudentModels.Update(student);
+            _db.SaveChanges();
         }
     }
 }
