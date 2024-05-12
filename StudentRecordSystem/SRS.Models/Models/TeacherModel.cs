@@ -19,6 +19,8 @@ namespace SRS.Models.Models
         [Required]
         [StringLength(20)]
         public string Surname { get; set; }
+
+        public string? Profession { get; set; }
         //[Required]
         //[Range(0, 500)]
         //public int Section { get; set; }

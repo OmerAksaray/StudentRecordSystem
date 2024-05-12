@@ -1,8 +1,27 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model IEnumerable<StudentModel>
 
-<div class="text-center mt-5">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+<div class="row pb-3">
+    @foreach(var student in Model){
+        <div class="col-lg-3 col-sm-6">
+        <div class="row p-2">
+        <div class="col-12 p-1">
+            <div class="card border-0 p-3 shadow border-top border-5 rounded">
+                <img src="@student.ImageUrl" class="card-img-top rounded" height="250px"/>
+                <div class="card-body pb-0">
+                    <div class="pl-1">
+                        <p class="card-title h5 text-dark opacity-75 text-uppercase text-center">@student.Name @student.Surname</p>
+                                
+                        </div>
+                            
+                            <div class="text-center">
+                                <a asp-action="details" asp-route-studentId="@student.StudentId"
+                                class="btn btn-primary bg-gradient border-0 form control">Details</a>
+                            </div>
+                     </div>
+
+             </div>
+             </div>
+        </div>   
+        </div> }
 </div>

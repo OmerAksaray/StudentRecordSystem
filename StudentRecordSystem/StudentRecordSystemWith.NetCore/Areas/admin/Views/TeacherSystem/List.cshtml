@@ -3,38 +3,73 @@
 
 <div class="container">
     <h2>Teacher List</h2>
-    <table class="table">
+    <table class="table" id="tbllist">
         <thead>
             <tr>
-                <th scope="col">#</th>
                 <th scope="col">Name</th>
                 <th scope="col">Surname</th>
-                @* <th scope="col">Section</th> *@
+                <th scope="col">Profession</th>
                 <th scope="col"></th>
-
             </tr>
         </thead>
-        <tbody>
-            @foreach (var teacher in Model)
-            {
-
-                <tr>
-                    <th scope="row">@teacher.TeacherId</th>
-                    <td>@teacher.Name</td>
-                    <td>@teacher.Surname</td>
-                   @*  <td>@teacher.Section</td> *@
-                    <td>
-                        <a type="button" class="btn btn-warning rounded" asp-action="Update" asp-route-id="@teacher.TeacherId">
-                            <i class="bi bi-pencil-fill"></i>
-                            Edit
-                        </a>
-                        <form type="button" class="d-inline-flex" method="post" asp-action="Delete" asp-route-id="@teacher.TeacherId">
-                            <button class="btn btn-danger rounded"> <i class="bi bi-trash"></i> Delete</button>
-                        </form>
-                    </td>
-                </tr>
-            }
-
-        </tbody>
+        <tbody></tbody>
     </table>
 </div>
+
+@section Scripts {
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js" asp-append-version="true"></script>
+    <script>
+        $(document).ready(function () {
+            dataTable = $('#tbllist').DataTable({
+                "ajax": {
+                    "url": "/admin/teacherSystem/GetAllTeacher",
+                    "type": "GET",
+                    "dataType": "json"
+                },
+                "columns": [
+                    { "data": "name", "width": "25%" },
+                    { "data": "surname", "width": "25%" },
+                    { "data": "profession", "width": "25%" },
+                    {
+                        "data": "teacherId",
+                        "width": "25%",
+                        "render": function (data, type, full, meta) {
+                            return `<div class="w-75 btn-group" role="group">
+                                        <a href="/admin/teacherSystem/update?id=${data}" class="btn btn-primary mx-2"> <i class="bi bi-pencil"></i> Edit</a>
+                                        <button onclick="confirmAndDelete('/admin/teacherSystem/delete/?id=${data}')" class="btn btn-danger">Delete</button>
+                                    </div>`;
+                        }
+                    },
+                ]
+            });
+        });
+
+        function confirmAndDelete(url) {
+            Swal.fire({
+                title: "Are you sure?",
+                text: "You won't be able to revert this!",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Yes, delete it!"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    $.ajax({
+                        url: url,
+                        type: 'POST',
+                        success: function (response) {
+                            dataTable.ajax.reload();
+                            toastr.success(response.message);
+                            // İsteği başarıyla tamamladıktan sonra ek işlemleri buraya ekleyebilirsiniz.
+                        },
+                        error: function (xhr, status, error) {
+                            toastr.error(xhr.responseText);
+                            // İsteği tamamlarken bir hata oluşursa burada işlem yapabilirsiniz.
+                        }
+                    })
+                }
+            });
+        }
+    </script>
+}

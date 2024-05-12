@@ -22,7 +22,14 @@
                     <input asp-for="_Student.SchoolNumber" class="form-control border border-primary" placeholder="Enter school number">
                     <span asp-validation-for="_Student.SchoolNumber" class="text-danger"></span>
                 </div>
-
+                <div class="form-group my-3">
+                    <input asp-for="_Student.Description" class="form-control border border-primary" placeholder="Enter a description about yourself for companys.">
+                    <span asp-validation-for="_Student.Description" class="text-danger"></span>
+                </div>
+                <div class="form-group my-3">
+                    <input asp-for="_Student.Education" class="form-control border border-primary" placeholder="Enter your education.">
+                    <span asp-validation-for="_Student.Education" class="text-danger"></span>
+                </div>
                 <div class="form-group my-3">
                     <select asp-for="@Model._Student.TeacherId" asp-items="@Model.TeacherList" class="form-select border border-black">
                         <option disabled selected>--Select Teacher--</option>

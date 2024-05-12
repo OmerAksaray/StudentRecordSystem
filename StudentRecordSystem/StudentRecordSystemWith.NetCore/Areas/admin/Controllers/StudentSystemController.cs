@@ -111,6 +111,8 @@ namespace StudentRecordSystemWith.NetCore.Areas.Admin.Controllers
                     existingStudent.Surname = studentVM._Student.Surname;
                     existingStudent.SchoolNumber = studentVM._Student.SchoolNumber;
                     existingStudent.TeacherId = studentVM._Student.TeacherId;
+                    existingStudent.Description = studentVM._Student.Description;
+                    existingStudent.Education = studentVM._Student.Education;
                     _db.Student.Update(existingStudent);
                     _db.Save();
                     TempData["success"] = "You updated successfully.";

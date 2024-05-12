@@ -20,6 +20,9 @@ namespace SRS.Models
         [Range(0, 500)]
         public int  SchoolNumber{ get; set; }
 
+        public string? Description { get; set; }
+
+        public string? Education { get; set; }
         [ForeignKey("Teacher")]
         public int? TeacherId { get; set; }
         [ValidateNever]
