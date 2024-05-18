@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|c:\\users\\oaksa\\source\\repos\\studentrecordsystem\\studentrecordsystemwith.netcore\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|solutionrelative:studentrecordsystemwith.netcore\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|c:\\users\\oaksa\\source\\repos\\studentrecordsystem\\studentrecordsystemwith.netcore\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|solutionrelative:studentrecordsystemwith.netcore\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|c:\\users\\oaksa\\source\\repos\\studentrecordsystem\\studentrecordsystemwith.netcore\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|solutionrelative:studentrecordsystemwith.netcore\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|c:\\users\\oaksa\\source\\repos\\studentrecordsystem\\studentrecordsystemwith.netcore\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CD95BD4-0695-495B-A786-B78B7F60EB0C}|StudentRecordSystemWith.NetCore\\StudentRecordSystemWith.NetCore.csproj|solutionrelative:studentrecordsystemwith.netcore\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A130BF8-54F8-48EE-ADAB-BF6F7866C546}|SRS.Models\\SRS.Models.csproj|c:\\users\\oaksa\\source\\repos\\studentrecordsystem\\srs.models\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A130BF8-54F8-48EE-ADAB-BF6F7866C546}|SRS.Models\\SRS.Models.csproj|solutionrelative:srs.models\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,15 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "StudentRecordSystemWith.NetCore\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "StudentRecordSystemWith.NetCore\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AQIAAJAAAAAAAAAAAAASwJsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:04:23.713Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "StudentRecordSystemWith.NetCore\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeToolTip": "StudentRecordSystemWith.NetCore\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T11:46:53.618Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Models\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "SRS.Models\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\SRS.Models\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "SRS.Models\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T11:40:20.666Z"
             },
             {
               "$type": "Document",
@@ -49,22 +61,9 @@
               "RelativeDocumentMoniker": "StudentRecordSystemWith.NetCore\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ToolTip": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeToolTip": "StudentRecordSystemWith.NetCore\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T16:04:19.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "StudentRecordSystemWith.NetCore\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\StudentRecordSystem\\StudentRecordSystemWith.NetCore\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "StudentRecordSystemWith.NetCore\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAApwHoAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T13:42:13.947Z"
+              "WhenOpened": "2024-05-18T11:18:09.724Z"
             }
           ]
         }

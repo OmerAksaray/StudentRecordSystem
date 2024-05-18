@@ -5,11 +5,11 @@ VisualStudioVersion = 17.10.34814.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentRecordSystemWith.NetCore", "StudentRecordSystemWith.NetCore\StudentRecordSystemWith.NetCore.csproj", "{3CD95BD4-0695-495B-A786-B78B7F60EB0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRS.DataAccess", "SRS.DataAccess\SRS.DataAccess.csproj", "{1D04319C-4371-468B-A758-51D8CC78F77B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRS.DataAccess", "SRS.DataAccess\SRS.DataAccess.csproj", "{1D04319C-4371-468B-A758-51D8CC78F77B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRS.Models", "SRS.Models\SRS.Models.csproj", "{8A130BF8-54F8-48EE-ADAB-BF6F7866C546}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRS.Models", "SRS.Models\SRS.Models.csproj", "{8A130BF8-54F8-48EE-ADAB-BF6F7866C546}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRS.Utility", "SRS.Utility\SRS.Utility.csproj", "{F453633C-C405-4F04-B5A3-7A58CFBAE3D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRS.Utility", "SRS.Utility\SRS.Utility.csproj", "{F453633C-C405-4F04-B5A3-7A58CFBAE3D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

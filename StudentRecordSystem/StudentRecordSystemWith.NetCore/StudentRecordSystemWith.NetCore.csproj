@@ -31,4 +31,11 @@
     <Folder Include="wwwroot\images\students\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Areas\Identity\Pages\Account\_ViewStart.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

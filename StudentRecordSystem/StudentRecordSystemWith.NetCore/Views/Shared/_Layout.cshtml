@@ -28,13 +28,15 @@
                             <a class="nav-link text-white" asp-area="student" asp-controller="home" asp-action="index">Home</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="admin" asp-controller="studentSystem" asp-action="upsert">Create Student</a>
-                        </li>
+                       
 
+                        @if (User.IsInRole(SD.Role_Admin))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="admin" asp-controller="studentSystem" asp-action="upsert">Create Student</a>
+                            </li>
 
-
-                       <li>
+                        <li>
                             <div class="dropdown">
                                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Opeartion
@@ -52,6 +54,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-white" asp-area="admin" asp-controller="teacherSystem" asp-action="create">Create Teacher</a>
                         </li>
+                        }
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>

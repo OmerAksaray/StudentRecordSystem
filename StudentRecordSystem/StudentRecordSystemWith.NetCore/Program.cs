@@ -8,6 +8,9 @@ using SRS.Data;
 using System;
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Identity;
+using SRS.Utility;
+using Microsoft.AspNetCore.Identity.UI.Services;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,12 +19,22 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ApplicationDataContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    // Cookie settings
+    options.Cookie.HttpOnly = true;
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(5);
 
+    options.LoginPath = $"/Identity/Account/Login";
+    options.LogoutPath = $"/Identity/Account/Logout";
+    options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
+    options.SlidingExpiration = true;
+});
 //builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDataContext>();
 builder.Services.AddRazorPages();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
-    .AddEntityFrameworkStores<ApplicationDataContext>();
+builder.Services.AddIdentity<IdentityUser,IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
+    .AddEntityFrameworkStores<ApplicationDataContext>().AddDefaultTokenProviders();
 // JSON serile?tirici yap?land?rmas?
 builder.Services.AddControllers().AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
@@ -46,17 +59,8 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.User.RequireUniqueEmail = false;
 });
 
-builder.Services.ConfigureApplicationCookie(options =>
-{
-    // Cookie settings
-    options.Cookie.HttpOnly = true;
-    options.ExpireTimeSpan = TimeSpan.FromMinutes(5);
 
-    options.LoginPath = "/Identity/Account/Login";
-    options.AccessDeniedPath = "/Identity/Account/AccessDenied";
-    options.SlidingExpiration = true;
-});
-
+builder.Services.AddScoped<IEmailSender, EmailSender>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -7,11 +7,14 @@ using SRS.Models.ViewModels;
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
 using System.Text.Json;
+using Microsoft.AspNetCore.Authorization;
+using SRS.Utility;
 
 
 namespace StudentRecordSystemWith.NetCore.Areas.Admin.Controllers
 {
     [Area("admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class StudentSystemController : Controller
     {
         private IUnitOfWork _db;
